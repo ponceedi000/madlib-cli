@@ -3,6 +3,8 @@
 **Author**: Ediberto Ponce
 **Version**: 1.0.0
 
+- PR: [https://github.com/ponceedi000/madlib-cli/pull/1](https://github.com/ponceedi000/madlib-cli/pull/1)
+
 ## Overview
 
 - I  creating a command line application which takes advantage of Python’s built in capabilities for reading and writing files. For practice, we are creating a MadLibs-similar type game.
