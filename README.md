@@ -24,6 +24,12 @@
 - Connor Boyce
 - Alex Payne
 
+## Resources
+
+- [Python String format() Method](https://www.w3schools.com/python/ref_string_format.asp)
+- [Unpacking Arrays](https://realpython.com/python-kwargs-and-args/#unpacking-with-the-asterisk-operators)
+- [w3schools.com](https://www.w3schools.com/python/python_regex.asp)
+
 ## Name of feature: stripped string
 
 - Estimate of time needed to complete: 1 hour

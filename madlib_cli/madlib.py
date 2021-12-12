@@ -1,3 +1,4 @@
+import re
 def welcome():
     print("""
 **************************************
@@ -27,26 +28,22 @@ def read_template(file_path):
     with open(file_path, 'r') as f:
       stripped = f.read().strip()
       return stripped
-      # print("this is stripped", stripped)
   except FileNotFoundError:
     raise FileNotFoundError('File cannot be found, sorry.')
   except Exception as e:
     return "Here's what wrong: " + e  
+read_template("assets/dark_and_stormy_night_template.txt")
+# read_template("assets/make_me_a_video_game_output.txt")
 
-def parse_template():
-  return('setup')
+def parse_template(file_content):
+
+  expected_stripped = file_content.format(Adjective = {}, Noun = {})
+  expected_parts_list = re.findall(r'{([^}]*)}', file_content)
+  expected_parts = tuple(expected_parts_list)
+  return expected_stripped, expected_parts
+
+
 def merge():
   return('setup')
 
-read_template("assets/dark_and_stormy_night_template.txt")
-read_template("assets/make_me_a_video_game_output.txt")
-
-
-
-
-if __name__ == "__main__":
-    welcome()
-    displayMenuForUser()
-    submitPrompt()
-    read_template()
 
