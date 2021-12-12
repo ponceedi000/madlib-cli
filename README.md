@@ -29,6 +29,7 @@
 - [Python String format() Method](https://www.w3schools.com/python/ref_string_format.asp)
 - [Unpacking Arrays](https://realpython.com/python-kwargs-and-args/#unpacking-with-the-asterisk-operators)
 - [w3schools.com](https://www.w3schools.com/python/python_regex.asp)
+- [tutorialspoint](https://www.tutorialspoint.com/python/list_list.htm)
 
 ## Name of feature: stripped string
 
@@ -42,10 +43,20 @@
 
 ## Name of feature: parse template file
 
-- Estimate of time needed to complete: 3 hour
+- Estimate of time needed to complete: 3 hours
 
 - Start time: 3:15pm
 
-- Finish time: 
+- Finish time: 6:00pm
 
-- Actual time needed to complete: 
+- Actual time needed to complete: 2:45 hours
+
+## Name of feature: merge
+
+- Estimate of time needed to complete: 3 hours
+
+- Start time: 6:15pm
+
+- Finish time: pending
+
+- Actual time needed to complete: pending

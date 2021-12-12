@@ -24,6 +24,13 @@ def submitPrompt():
         """)
 
 def read_template(file_path):
+  """
+  Need to use a try block 
+  Inside the try, I need to open the correct .txt file, read the file a remove any whitespace
+  We then need an except or "catch" block to handle likely errors
+  If an error occurs, raise the error type
+  Invoke the function with correct file path
+  """
   try:
     with open(file_path, 'r') as f:
       stripped = f.read().strip()
@@ -36,6 +43,12 @@ read_template("assets/dark_and_stormy_night_template.txt")
 # read_template("assets/make_me_a_video_game_output.txt")
 
 def parse_template(file_content):
+  """
+  Next, I have to format the content from the file. 
+  Take a template string and convert it into a string without any special characters.
+  We can do this using the .format method, along with some Regex.
+  Next, make sure the output of our string is in the form of a tuple
+  """
 
   expected_stripped = file_content.format(Adjective = {}, Noun = {})
   expected_parts_list = re.findall(r'{([^}]*)}', file_content)
